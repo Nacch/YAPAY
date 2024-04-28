@@ -1,0 +1,714 @@
+*{
+    box-sizing: border-box;
+    font-family: Abel;
+}
+
+h1 { font-size: 70px;}
+h2 { font-size: 40px;}
+h3 { font-size: 40px;}
+
+body{
+    margin: 0;
+}
+
+button {
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    color:white;
+    background-color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgba(95, 95, 95, 0.5);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: #D9D9D9;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+}
+
+header.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px ;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a {
+    padding: 5px 12px ;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgba(0,0,0,0.5)
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url(img/7.1.jpg);
+    background-size: cover;   
+    background-position: center center;
+    color: #ffffff;
+    
+}
+
+.rectangle-1 {
+    position: absolute;
+    width: 532px;
+    height: 368px;
+    left: 700px;
+    top: 590px;
+    background: rgba(0, 0, 0, 0.027);
+}
+
+#hero h1 {
+    color: white;
+}
+
+#Tendencias {
+    width: 1868px;
+    height: 570px;
+    left: 100px;
+    top: 1308px;
+}
+
+#Tendencias .container {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#Tendencias .ropa {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.rectangle-2 {
+    position: absolute;
+    width: 1700px;
+    height: 570px;
+    left: 100px;
+    top: 1308px;
+    background: rgba(0, 0, 0, 0.425);
+    display: flex;
+}
+
+#Tendencias .ropa .nuevo {
+    position: absolute;
+    width: 70.82px;
+    height: 38px;
+    left: 260px;
+    top: 1740px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}
+
+#Tendencias .ropa .image-1 {
+    box-sizing: border-box;
+    position:absolute;
+    font-style: normal;
+    width: 193.23px;
+    height: 369px;
+    left: 200px;
+    top: 1400px;
+    border: 1px solid #000000;
+}
+
+#Tendencias .ropa .temporada {
+    position: absolute;
+    width: 180.07px;
+    height: 76px;
+    left: 660px;
+    top: 1720px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    font-style: normal;
+    line-height: 38px;
+    text-align: center;
+}
+
+#Tendencias .ropa .image-2 {
+    box-sizing: border-box;
+    position:absolute;
+    font-style: normal;
+    width: 408.71px;
+    height: 280px;
+    left: 548px;
+    top: 1450px;
+    border: 1px solid #000000;
+}
+
+#Tendencias .ropa .accesorios {
+    position: absolute;
+    width: 126.46px;
+    height: 38px;
+    left: 1140px;
+    top: 1740px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}
+
+#Tendencias .ropa .image-3 {
+    box-sizing: border-box;
+    position:absolute;
+    font-style: normal;
+    width: 217.51px;
+    height: 272px;
+    left: 1093px;
+    top: 1453px;
+    border: 1px solid #000000;
+}
+
+#Tendencias .ropa .zapatos {
+    position: absolute;
+    width: 94.08px;
+    height: 38px;
+    left: 1540px;
+    top: 1740px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}
+
+#Tendencias .ropa .image-4 {
+    box-sizing: border-box;
+    position:absolute;
+    font-style: normal;
+    width: 236.73px;
+    height: 396px;
+    left: 1460px;
+    top: 1360px;
+    border: 1px solid #000000;
+}
+
+#colecciones-populares {
+    width: 1868px;
+    height: 1100px;
+    left: 100px;
+    top: 1308px;
+}
+
+#colecciones-populares .container {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#colecciones-populares .carta  {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#colecciones-populares .carta .image-8 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 403px;
+    left: 280px;
+    top: 2010px;
+    border: 1px solid #000000;
+}
+
+#colecciones-populares .carta .cardigan {
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    left: 355px;
+    top: 2410px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#colecciones-populares .carta .image-9{
+    box-sizing: border-box;
+    position: absolute;
+    width: 310px;
+    height: 403px;
+    left: 605px;
+    top: 2010px;
+    border: 1px solid #000000;
+}
+
+#colecciones-populares .carta .sudadera {
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    left: 715px;
+    top: 2410px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#colecciones-populares .carta .image-10{
+    box-sizing: border-box;
+    position: absolute;
+    width: 246px;
+    height: 403px;
+    left: 990px;
+    top: 2010px;
+    border: 1px solid #000000;
+}
+
+#colecciones-populares .carta .vestido {
+    position: absolute;
+    width: 221px;
+    height: 35px;
+    left: 1008px;
+    top: 2410px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+    
+    color: #000000;
+    
+
+}
+
+#colecciones-populares .carta .image-11{
+    box-sizing: border-box;
+    position: absolute;
+    width: 246px;
+    height: 403px;
+    left: 1300px;
+    top: 2010px;
+    border: 1px solid #000000;
+}
+
+#colecciones-populares .carta .camisa {
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    left: 1380px;
+    top: 2410px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#colecciones-populares .carta .image-12 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 315px;
+    height: 403px;
+    left: 250px;
+    top: 2500px;
+    border: 1px solid #000000;
+}
+
+#colecciones-populares .carta .polera {
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    left: 355px;
+    top: 2900px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#colecciones-populares .carta .image-13{
+    box-sizing: border-box;
+    position: absolute;
+    width: 310px;
+    height: 403px;
+    left: 605px;
+    top: 2500px;
+    border: 1px solid #000000;
+}
+
+#colecciones-populares .carta .casaca {
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    left: 715px;
+    top: 2900px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#colecciones-populares .carta .image-14{
+    box-sizing: border-box;
+    position: absolute;
+    width: 280px;
+    height: 403px;
+    left: 975px;
+    top: 2500px;
+    border: 1px solid #000000;
+}
+
+#colecciones-populares .carta .pantalon {
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    left: 1070px;
+    top: 2900px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#colecciones-populares .carta .image-15{
+    box-sizing: border-box;
+    position: absolute;
+    width: 246px;
+    height: 403px;
+    left: 1300px;
+    top: 2500px;
+    border: 1px solid #000000;
+}
+
+#colecciones-populares .carta .jogger {
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    left: 1380px;
+    top: 2900px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#para-ti {
+    width: 1868px;
+    height: 1100px;
+    left: 100px;
+    top: 1308px;
+}
+
+#para-ti .container {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#para-ti .para  {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.rectangle-4 {
+    position: absolute;
+    width: 1700px;
+    height: 570px;
+    left: 100px;
+    top: 3020px;
+    background: rgba(0, 0, 0, 0.144);
+    display: flex;
+}
+
+#para-ti .para .image-16{
+    box-sizing: border-box;
+    position: absolute;
+    width: 232px;
+    height: 336px;
+    left: 200px;
+    top: 3150px;
+    border: 1px solid #000000;
+}
+
+#para-ti .para .zapatos {
+    position: absolute;
+    width: 93px;
+    height: 38px;
+    left: 260px;
+    top: 3470px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#para-ti .para .image-17{
+    box-sizing: border-box;
+    position: absolute;
+    width: 232px;
+    height: 336px;
+    left: 600px;
+    top: 3150px;
+    border: 1px solid #000000;
+}
+
+#para-ti .para .vestidos {
+    position: absolute;
+    width: 93px;
+    height: 38px;
+    left: 670px;
+    top: 3470px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#para-ti .para .image-18{
+    box-sizing: border-box;
+    position: absolute;
+    width: 232px;
+    height: 336px;
+    left: 1000px;
+    top: 3150px;
+    border: 1px solid #000000;
+}
+
+#para-ti .para .camisas {
+    position: absolute;
+    width: 93px;
+    height: 38px;
+    left: 1070px;
+    top: 3470px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#para-ti .para .image-19{
+    box-sizing: border-box;
+    position: absolute;
+    width: 232px;
+    height: 336px;
+    left: 1430px;
+    top: 3150px;
+    border: 1px solid #000000;
+}
+
+#para-ti .para .pantalones {
+    position: absolute;
+    width: 93px;
+    height: 38px;
+    left: 1500px;
+    top: 3470px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#descarga {
+    position: absolute;
+    width: 696px;
+    height: 82px;
+    left: 600px;
+    top: 3600px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+}
+
+#descarga .container {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#descarga .app  {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#descarga .app .image-google{
+    box-sizing: border-box;
+    position: absolute;
+    width: 390px;
+    height: 150px;
+    left: -400px;
+    top: 160px;
+}
+
+#descarga .app .image-apple{
+    box-sizing: border-box;
+    position: absolute;
+    width: 460px;
+    height: 180px;
+    left: 110px;
+    top: 145px;
+}
+
+#descarga .app .image-gallery{
+    box-sizing: border-box;
+    position: absolute;
+    width: 390px;
+    height: 380px;
+    left: 700px;
+    top: 45px;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(img/FacebookBlanco.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin:1rem;
+}
+
+.social-icon:hover{
+    background-color: #121212;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(img/InstagramBlanco.png);
+}
+.social-icon:nth-of-type(3){
+    background-image: url(img/TwitterBlanco.png);
+}
+.social-icon:nth-of-type(4){
+    background-image: url(img/LinkedinBlanco.png);
+}
+.footer-menu-container{
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
+
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+}
